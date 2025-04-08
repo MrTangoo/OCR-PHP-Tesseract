@@ -1,7 +1,8 @@
 # Ignore the output and uploads directories
-/output/
+/output/result.txt
 /uploads/
 
 # Except .gitkeep files
 !output/.gitkeep
 !uploads/.gitkeep
+
