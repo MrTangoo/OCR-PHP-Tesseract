@@ -30,10 +30,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['image'])) {
 
     <label>Mode PSM :</label><br>
     <select name="psm">
-        <option value="3">3 - Auto (par défaut)</option>
+        <option value="0">0 - Orientation et script detection</option>
+        <option value="1">1 - Segmentation de page automatique avec OSD</option>
+        <option value="2">2 - Segmentation de page automatique mais sans OSD ou OCR</option>
+        <option value="3" selected>3 - Auto (par défaut)</option>
         <option value="4">4 - Colonne de texte</option>
+        <option value="5">5 - Texte unique avec mise en forme</option>
         <option value="6">6 - Bloc de texte uniforme</option>
         <option value="7">7 - Ligne unique</option>
+        <option value="8">8 - Traitement d'image avec un seul mot</option>
+        <option value="9">9 - Traitement d'image avec un seul mot dans un rond</option>
+        <option value="10">10 - Traitement d'image avec un seul charactère</option>
         <option value="11">11 - Sparse text</option>
     </select><br><br>
 

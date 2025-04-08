@@ -59,3 +59,5 @@ Tesseract propose différents modes de segmentation de la page (PSM). Voici quel
 
 Le choix du mode PSM peut améliorer la précision de l'OCR selon la structure du texte dans l'image.
 
+https://pyimagesearch.com/2021/11/15/tesseract-page-segmentation-modes-psms-explained-how-to-improve-your-ocr-accuracy/
+
